@@ -1,14 +1,18 @@
 import React from "react";
 // import UseState from "./UseState";
 // import UseEffect02 from "./UseEffect02";
-import UseReducer from "./hooks/UseReduce";
+// import UseReducer from "./hooks/UseReduce";
+import Todos from "./components/Todos";
+// import UseContext from "./hooks/UseContext";
 
 const App = () => {
   return (
     <div>
       {/* <UseState /> */}
       {/* <UseEffect02 /> */}
-      <UseReducer />
+      {/* <UseReducer /> */}
+      <Todos />
+      {/* <UseContext /> */}
     </div>
   );
 };
